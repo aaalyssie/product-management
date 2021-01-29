@@ -1,0 +1,116 @@
+.productTable{
+    width: 100%;
+    .img{
+        max-width: 100px;
+        max-height: 100px;
+        height: auto;
+        width: auto;
+    }
+}
+.sideForm{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 25px;
+    &.add{
+        background: #87e0ff;
+    }
+    &.edit{
+        background: #ffd487;
+    }
+    .home-btn{
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        color: #000;
+    }
+}
+.content{
+    background: #fff;
+    height: 100vh;
+    overflow: auto;
+}
+
+.productCatalog{
+    .item{
+        padding: 3px;
+        border: 1px solid #eee;
+        border-radius: 8px;
+        box-shadow: 3px 3px 7px 1px #efebeb;
+        text-align: center;
+        margin-top: 25px;
+        .img{
+            height: 200px;
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
+        .details{
+            margin-top: 15px;
+            position: relative;
+            padding: 0 15px;
+            h3{
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                width: 100%;
+                &:before{
+                    content: '';
+                    display: inline-block;
+                }
+            }
+            p{
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                width: 100%;
+                &:before{
+                    content: '';
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+.carousel-item{
+    img{
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        border-radius: 0 0 0 0;
+    }
+}
+
+.navbar {
+    background-color: #c4d75d!important;
+}
+
+.form-control{
+    border: 1px solid #8d969f !important;
+}
+.form-check-input{
+    height: 20px;
+    width: 20px;
+}
+
+.label{
+    margin-left: 35px;
+    margin-top: 2px;
+}
+
+.btn{
+    min-width: 70px;
+}
+
+.btn-secondary {
+    color: #fff !important;
+    background-color: #232323 !important;
+    border-color: #000000 !important;
+    &:hover{
+        background-color: #000000 !important;
+    }
+}
